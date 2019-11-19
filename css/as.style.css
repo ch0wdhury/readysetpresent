@@ -1,0 +1,293 @@
+/* font-family: 'Poppins', sans-serif; */
+/* font-family: 'Montserrat', sans-serif; */
+html, body {
+	overflow-x: hidden;
+	font-family: 'Poppins', sans-serif;
+	color: #282923;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	position: relative;
+	background: #eee;
+}
+
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+
+
+/* ---------- Header Section Starts -------- */
+header {
+	color: #e79b0e;
+	padding: 30px 0;
+}
+.fixed-top {
+	background-color: #2b2d46;
+	padding: 15px 80px;
+}
+.custom_brand {
+	width: 10%;
+}
+.custom_brand img {
+	width: 100%;
+}
+.custom_navbar ul li {
+	margin-left: 8px;
+	border: none;
+	position: relative;
+}
+.custom_navbar ul li a {
+	font-weight: 700;
+	color: #FFF!important;
+	transition: .5s ease;
+}
+.custom_navbar ul li a:hover {
+	color: #e79b0e!important;
+}
+.navbar-toggler i {
+	background: transparent;
+	color: #e79b0e!important;
+}
+.nav-item::after{
+    content:'';
+    display:block;
+    width:0px;
+    height:4px;
+    background:#e79b0e;
+    transition: 0.2s;
+    margin-top:-10px;
+}
+.nav-item:hover::after{
+	width:100%;
+}
+.nav-link{
+	padding:15px 5px;
+	transition:0.2s;
+}
+.navbar-nav .nav-link {
+    color:#000;
+    font-size:16px;
+}
+.navbar-nav .nav-link i {
+    font-weight:300;
+    font-size:20px;
+}
+.nav-link.active > .nav-link {
+    color: #e79b0e!important;
+    width:100%;
+    height:51px;
+  	border-bottom: .25rem solid transparent;
+  	border-bottom-color: #e79b0e;
+}
+.nav-link.active {
+    color: #e79b0e!important;
+    width:100%;
+    height:51px;
+  	border-bottom-color: #fbbc19;
+}
+/* ------- Header Section Ends --------- */
+/* ------- Banner Section Starts -------- */
+.banner_contents {
+    position: absolute;
+    bottom: 150px;
+}
+.banner_contents h1 {
+    font-weight: 700;
+}
+.banner_contents h3 {
+    margin: 20px auto;
+}
+.banner_contents span {
+    color: #e79b0e;
+}
+.btn-custom {
+    color: #fff;
+    background-color: #2b2d46;
+    padding: 15px 20px;
+    font-weight: 700;
+    transition: .5s ease;
+}
+.btn-custom:hover {
+    color: #e79b0e;
+    background-color: #fff;
+    padding: 15px 20px;
+}
+/* ------- Banner Section Ends -------- */
+/* ------- Common Title Starts --------- */
+.common-title h1 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #2b2d46;
+}
+.common-title p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    width: 75%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+.common-title hr {
+    overflow: visible; /* For IE */
+    height: 30px;
+    width: 350px;
+    margin: 0 auto;
+    border-style: solid;
+    border-color: #e79b0e;
+    border-width: 3px 0 0 0;
+    border-radius: 20px;
+}
+.common-title hr:before {
+    display: block;
+    content: "";
+    height: 30px;
+    width: 350px;
+    margin: 0 auto;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: #e79b0e;
+    border-width: 0 0 3px 0;
+    border-radius: 20px;
+}
+/* ------- Common Title Ends --------- */
+/* ------- Intro Section Starts --------- */
+.intro-section {
+	padding: 50px 0;
+    background-color: #fff;
+}
+.text-variant h1 {
+    font-size: 25px;
+    line-height: 1.5;
+}
+.text-variant span {
+    color: #e79b0e;
+}
+.service_content img {
+    width: 15%;
+    margin-bottom: 10px;
+}
+.service_content {
+    padding: 50px 0;
+}
+.service_content h4 {
+    color: #e79b0e;
+    font-size: 20px;
+    font-weight: 700;
+}
+.service_content li {
+    font-size: 14px;
+    text-align: left;
+    margin-bottom: 5px;
+}
+.service_content li i {
+    color: #e79b0e;
+    font-size: 20px;
+    font-weight: 700;
+}
+/* ------- Intro Section Ends --------- */
+/* Slider Section Starts Here */
+.logo-slider-section .card {
+    margin: 20px;
+}
+.logo-slider-section .card a {
+    color: #e79b0e!important;
+    transition: .5s ease;
+}
+.logo-slider-section .card a:hover {
+    color: #000!important;
+}
+/* Slider Section Ends Here */
+/* ------- About Us Section Starts Here --------- */
+#about-us {
+	padding: 50px 0;
+	background-color: #fff;
+}
+.newsletter {
+  background: #2b2d46;
+}
+.newsletter-form {
+	padding: 50px 0;
+}
+.newsletter-form h3 {
+	margin-bottom: 50px;
+	color: #fff;
+}
+.newsletter-form input {
+	background-color: #eee;
+	border-color: #e79b0e;
+}
+.newsletter-form input:focus {
+	background-color: #eee;
+	border-color: #e79b0e;
+	box-shadow: none;
+}
+.custom-subs-btn {
+	border-color: #e79b0e;
+}
+/* ------- About Us Section Ends Here --------- */
+/* ------- Testimonial Section Starts Here --------- */
+#clients {
+	padding: 50px 0;
+	background-color: #FFF;
+}
+.owl-carousel {
+	margin-top: 50px;
+}
+.owl-carousel img {
+	width: 10%!important;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+.carousel-logo img {
+	width: 10%!important;
+	border-radius: 0%;
+	margin: 0 auto;
+}
+.testimonial_body {
+	font-style: italic;
+	padding-top: 10px;
+	width: 50%;
+	margin: 0 auto;
+}
+.client_name {
+	padding-top: 10px;
+	color: #025291;
+}
+.logo-slider-section {
+	padding: 50px 0;
+}
+/* ------- Testimonial Section Ends Here --------- */
+/* ------- Footer Section Starts Here --------- */
+footer {
+	padding-top: 50px;
+}
+.footer-description h5 {
+	font-size: 18px;
+	font-weight: 700;
+}
+.footer-description ul li, .footer-description p,  .footer-copyright p, .footer-copyright a {
+	margin: 5px 0;
+	font-size: 13px;
+	color: #000;
+}
+.footer-description ul li a {
+	color: #000;
+}
+.footer-copyright a {
+	font-weight: 700;
+}
+.footer-copyright a i {
+	font-size: 20px;
+	font-weight: 500;
+}
+.footer-copyright img {
+    width: 70%;
+}
+/* ------- Footer Section Ends Here --------- */
+

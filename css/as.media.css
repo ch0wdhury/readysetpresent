@@ -1,0 +1,75 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+	.fixed-top {
+		padding: 10px 5px;
+	}
+	.custom_brand {
+		width: 10%;
+	}
+	.pricing .card-price {
+	  font-size: 35px;
+	  margin: 0;
+	}
+	.pricing ul li {
+		 font-size: 11px;
+	}
+	.owl-carousel img {
+		width: 40%!important;
+	}	
+	.testimonial_body {
+		width: 95%;
+		margin: 0 auto;
+	}
+	.carousel-logo img {
+		width: 100%!important;
+	}
+	#contact-us .card {
+		margin-top: 30px;
+		padding: 5px 0px;
+	}
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.fixed-top {
+		padding: 10px 10px;
+	}
+	.custom_brand {
+		width: 10%;
+	}
+	.pricing .card-price {
+	  font-size: 35px;
+	  margin: 0;
+	}
+	.pricing ul li {
+		 font-size: 11px;
+	}
+	.owl-carousel img {
+		width: 30%!important;
+	}	
+	.testimonial_body {
+		width: 95%;
+		margin: 0 auto;
+	}
+	.carousel-logo img {
+		width: 100%!important;
+	}
+	#contact-us .card {
+		margin-top: 30px;
+		padding: 5px 0px;
+	}
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
